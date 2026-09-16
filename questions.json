@@ -1,0 +1,50 @@
+[
+  {
+    "q": "What is the time complexity of searching in a Python dictionary on average?",
+    "ans": ["O(1)", "o(1)", "constant", "1"]
+  },
+  {
+    "q": "Which keyword is used for context managers in Python?",
+    "ans": ["with"]
+  },
+  {
+    "q": "What method adds an element to the end of a list?",
+    "ans": ["append", "append()"]
+  },
+  {
+    "q": "Which built-in function returns an iterator of tuples with index and value?",
+    "ans": ["enumerate", "enumerate()"]
+  },
+  {
+    "q": "What keyword is used to raise a custom exception?",
+    "ans": ["raise"]
+  },
+  {
+    "q": "What decorator defines a method that doesn't receive self or cls?",
+    "ans": ["staticmethod", "@staticmethod"]
+  },
+  {
+    "q": "Which module is used for serializing objects?",
+    "ans": ["pickle", "json"]
+  },
+  {
+    "q": "What function is used to get the memory address of an object?",
+    "ans": ["id", "id()"]
+  },
+  {
+    "q": "What method creates a shallow copy of a dictionary?",
+    "ans": ["copy", "copy()"]
+  },
+  {
+    "q": "What is the return type of a lambda expression?",
+    "ans": ["function", "lambda"]
+  },
+  {
+    "q": "Which magic method controls object representation for developers?",
+    "ans": ["__repr__", "repr"]
+  },
+  {
+    "q": "What keyword pauses a generator and yields a value?",
+    "ans": ["yield"]
+  }
+]
