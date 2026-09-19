@@ -177,8 +177,7 @@ class UltimateTriviaTicTacToe:
                 self.info_label.config(text="دور الخصم...")
             else:
                 self.switch_turn()
-            return
-
+            return  
         if user_ans.strip() == item["ans"]:
             winner_symbol = self.current_player if self.game_mode != "online" else self.my_symbol
             item["status"] = winner_symbol
@@ -303,3 +302,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = UltimateTriviaTicTacToe(root)
     root.mainloop()
+
